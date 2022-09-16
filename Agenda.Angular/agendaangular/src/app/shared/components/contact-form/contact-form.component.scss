@@ -1,0 +1,47 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.phones-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.label-color {
+  color: var(--text-body)!important;
+}
+
+.select-color {
+  background-color: var(--body);
+  color: var(--text-body)!important;
+}
+
+.select-color:hover {
+  background-color: var(--body);
+  color: var(--text-body)!important;
+  opacity: 0.4;
+}
+
+.save-btn {
+  background-color: var(--primary);
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: var(--text-body)!important;
+
+}
+
+::ng-deep .mat-input-element {
+  color: var(--text-body)!important;
+}

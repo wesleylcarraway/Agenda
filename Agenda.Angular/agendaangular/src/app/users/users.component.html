@@ -1,0 +1,57 @@
+<div class="container">
+  <button class="action-btn add-btn" mat-raised-button color="primary" (click)="onAdd()" >
+    <mat-icon>add</mat-icon>
+    <span>New User</span>
+  </button>
+  <button class="action-btn" mat-raised-button color="accent" (click)="refreshTableAsync()">
+    <mat-icon>refresh</mat-icon>
+    <span>Refresh</span>
+  </button>
+  <app-searching [config]="searchingConfig"></app-searching>
+  <mat-accordion class="container">
+    <mat-expansion-panel class="accordion-container" *ngFor="let item of data.data">
+      <mat-expansion-panel-header>
+        <mat-panel-title class="preview-color">
+          id#{{item.id}} {{item.username}}
+        </mat-panel-title>
+        <mat-panel-description class="preview-color">
+          created at: {{item.createdAt}} | updated at: {{item.updatedAt}}
+        </mat-panel-description>
+        <button mat-icon-button (click)="onEdit(item.id)">
+          <mat-icon>edit</mat-icon>
+        </button>
+        <button mat-icon-button (click)="deleteUserAsync(item.id)">
+          <mat-icon class="delete-icon">delete</mat-icon>
+        </button>
+      </mat-expansion-panel-header>
+
+      <div class="panel-body">
+        <div class="user-table">
+          <div class="user-header">
+            <div class="header-label">id</div>
+            <div class="header-label">name</div>
+            <div class="header-label">username</div>
+            <div class="header-label">email</div>
+            <div class="header-label">user role</div>
+          </div>
+          <div class="user-body">
+            <div class="body-label">{{item.id}}</div>
+            <div class="body-label">{{item.name}}</div>
+            <div class="body-label">{{item.username}}</div>
+            <div class="body-label">{{item.email}}</div>
+            <div class="body-label">{{item.userRole.name}}</div>
+          </div>
+        </div>
+      </div>
+
+    </mat-expansion-panel>
+    <mat-paginator class="paginator-color"
+              (page)="changePageAsync($event)"
+              [length]="20"
+              [pageSize]="5"
+              [pageSizeOptions]="[5, 10]"
+              aria-label="Select page">
+    </mat-paginator>
+  </mat-accordion>
+</div>
+

@@ -1,0 +1,59 @@
+<div class="container">
+  <button class="action-btn add-btn" mat-raised-button color="primary" (click)="onAdd()" >
+    <mat-icon>add</mat-icon>
+    <span>New contact</span>
+  </button>
+  <button class="action-btn" mat-raised-button color="accent" (click)="refreshTableAsync()">
+    <mat-icon>refresh</mat-icon>
+    <span>Refresh</span>
+  </button>
+  <app-searching [config]="searchingConfig"></app-searching>
+  <mat-accordion class="container">
+    <mat-expansion-panel class="accordion-container" *ngFor="let item of data.data">
+      <mat-expansion-panel-header>
+        <mat-panel-title class="preview-color">
+          id#{{item.id}} {{item.name}}
+        </mat-panel-title>
+        <mat-panel-description class="preview-color">
+          created at: {{item.createdAt}} | updated at: {{item.updatedAt}}
+        </mat-panel-description>
+        <button mat-icon-button (click)="onEdit(item.id)">
+          <mat-icon>edit</mat-icon>
+        </button>
+        <button mat-icon-button (click)="deleteContactAsync(item.id)">
+          <mat-icon class="delete-icon">delete</mat-icon>
+        </button>
+      </mat-expansion-panel-header>
+
+      <div class="panel-body">
+        <div class="phone-table">
+          <div class="phone-header">
+            <div class="header-label">id</div>
+            <div class="header-label">number</div>
+            <div class="header-label">description</div>
+            <div class="header-label">phone type</div>
+            <div class="header-label">created at</div>
+            <div class="header-label">update at</div>
+          </div>
+          <div class="phone-body" *ngFor="let phone of item.phones">
+            <div class="body-label">{{phone.id}}</div>
+            <div class="body-label">{{phone.formattedNumber}}</div>
+            <div class="body-label">{{phone.description}}</div>
+            <div class="body-label">{{phone.phoneType.name}}</div>
+            <div class="body-label">{{phone.createdAt}}</div>
+            <div class="body-label">{{phone.updatedAt}}</div>
+          </div>
+        </div>
+      </div>
+    </mat-expansion-panel>
+
+    <mat-paginator class="paginator-color"
+              [length]="100"
+              (page)="changePageAsync($event)"
+              [pageSize]="5"
+              [pageSizeOptions]="[5, 10]"
+              aria-label="Select page">
+    </mat-paginator>
+  </mat-accordion>
+</div>
+

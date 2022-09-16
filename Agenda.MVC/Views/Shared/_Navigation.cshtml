@@ -1,0 +1,29 @@
+@using System.Security.Claims
+
+<link href="~/css/navigation.css" rel="stylesheet" type="text/css" asp-append-version="true" />
+
+<div class="nav-wrapper">
+  <div class="nav-display">
+    <p>Manage</p>
+  </div>
+  @if(User.IsInRole("Admin"))
+  {
+    <a asp-controller="Users" asp-action="Index" class="users">
+    <p>Users</p>
+    </a>
+    <a  asp-controller="AgendaAdmin" asp-action="Index" class="admin-contacts">
+      <p>Admin Contacts</p>
+    </a>
+  }
+
+  <a asp-controller="Agenda" asp-action="Index" class="contacts">
+    <p>Contacts</p>
+  </a>
+
+  <div class="nav-display">
+    <p>About</p>
+  </div>
+  <div class="about">
+    <p>© 2022 Created by Marcelo Wesley<br> from Luby.Software</p>
+  </div>
+</div>

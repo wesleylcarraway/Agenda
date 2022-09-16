@@ -1,0 +1,47 @@
+<div class="form-container">
+  <div [formGroup]="form" class="form-group">
+    <ng-container *ngIf="isAdmin">
+      <mat-form-field appearance="outline">
+        <mat-label class="label-color">User</mat-label>
+        <mat-select formControlName="userId">
+          <mat-option class="select-color" *ngFor="let item of users" [value]="item.id">{{item.name}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </ng-container>
+    <div fxLayoutGap="1em">
+      <button class="save-btn" mat-raised-button [disabled]="form.invalid" color="primary" (click)="saveContactAsync()">Save</button>
+    </div>
+
+    <mat-form-field appearance="outline">
+      <mat-label class="label-color">Name</mat-label>
+      <input matInput type="text" formControlName="name">
+    </mat-form-field>
+
+    <ng-container formArrayName="phones">
+      <div *ngFor="let _ of phonesFieldArray.controls; let i = index" [formGroupName]="i" class="phones-container">
+        <mat-form-field appearance="outline">
+          <mat-label class="label-color">Phone Number</mat-label>
+          <input [dropSpecialCharacters]="false" matInput type="text" [mask]="getMaskPhone(i)"
+            formControlName="formattedNumber">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label class="label-color">Description</mat-label>
+          <input matInput type="text" formControlName="description">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label class="label-color">Phone type</mat-label>
+          <mat-select formControlName="phoneTypeId">
+            <mat-option class="select-color" *ngFor="let item of types" [value]="item.id">{{item.name}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <button class="delete-btn" color="accent" mat-icon-button (click)="removePhoneForm(i)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </div>
+    </ng-container>
+
+    <button class="save-btn" mat-raised-button color="primary" (click)="addPhoneForm()">
+      Add phone
+    </button>
+  </div>
+</div>

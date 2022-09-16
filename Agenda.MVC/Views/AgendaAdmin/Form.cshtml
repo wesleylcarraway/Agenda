@@ -1,0 +1,46 @@
+@model AdminContactFormViewModel
+
+@{
+
+  ViewData["Title"] = Model!.Id.HasValue ? "Edit Contact" : "New Contact";
+}
+
+@section Styles {
+  <link href='@Url.Content("~/css/AgendaAdmin2.css")' rel="stylesheet" type="text/css" asp-append-version="true"/>
+}
+
+@using (Html.BeginForm("Form", "AgendaAdmin", FormMethod.Post))
+{
+  <div class="register-form">
+    <div class="form-name2">@(Model!.Id.HasValue ? "Edit Contact" : "New Contact")</div>
+    <div class="form-section">
+      @Html.LabelFor(x => x.UserId, new { @class = "label-display"})
+      @Html.DropDownListFor(x => x.UserId, (SelectList)ViewBag.Users, htmlAttributes: new { @class = "input2"})
+      @Html.ValidationMessageFor(x => x.UserId)
+    </div>
+    <div class="form-section">
+      @Html.LabelFor(x => x.Name, new { @class = "label-display"})
+      @Html.TextBoxFor(x => x.Name, htmlAttributes: new { placeholder = "Name", @class = "input2" })
+      @Html.ValidationMessageFor(x => x.Name, "", new { @class = "validation-msg" })
+    </div>
+
+    <div>
+      <div class="form-name3">Phones: </div>
+      @await Html.PartialAsync("_PhoneFormPartial", Model)
+      <button type="submit" name="option" class="btn-edit" value="AddPhone">
+        +
+      </button>
+    </div>
+
+    <div class="line2"></div>
+    <button class="btn2" type="submit">Save</button>
+    <div>
+      @Html.ValidationSummary(true)
+    </div>
+  </div>
+}
+
+@section Scripts {
+  @await Html.PartialAsync("_ValidationScriptsPartial")
+}
+

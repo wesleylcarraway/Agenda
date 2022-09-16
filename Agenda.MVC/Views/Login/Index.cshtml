@@ -1,0 +1,34 @@
+@model LoginViewModel
+
+@{
+  ViewData["Title"] = "Login";
+}
+
+@section Styles {
+  <link href='@Url.Content("~/css/login.css")' rel="stylesheet" type="text/css" asp-append-version="true"/>
+}
+
+
+@using (Html.BeginForm("Index", "Login", FormMethod.Post))
+{
+  <div class="login-form">
+    <div class="form-name">Enter your account</div>
+    <div class="input-label">
+      @Html.TextBoxFor(x => x.Username, htmlAttributes: new { placeholder = "Username", @class = "input" })
+      @Html.ValidationMessageFor(x => x.Username, "", new { @class = "validation-msg" })
+    </div>
+    <div>
+      @Html.PasswordFor(x => x.Password, htmlAttributes: new { placeholder = "Password", @class = "input" })
+      @Html.ValidationMessageFor(x => x.Password, "", new { @class = "validation-msg" })
+    </div>
+    <div class="line"></div>
+    <button class="btn" type="submit">Log In</button>
+    <div>
+      @Html.ValidationSummary(true)
+    </div>
+  </div>
+}
+
+@section Scripts {
+  @await Html.PartialAsync("_ValidationScriptsPartial")
+}

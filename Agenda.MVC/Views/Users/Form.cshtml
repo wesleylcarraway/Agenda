@@ -1,0 +1,58 @@
+@model UserFormViewModel
+
+@{
+
+  ViewData["Title"] = Model!.Id.HasValue ? "Edit User" : "New User";
+}
+
+@section Styles {
+  <link href='@Url.Content("~/css/AgendaAdmin2.css")' rel="stylesheet" type="text/css" asp-append-version="true"/>
+}
+
+@using (Html.BeginForm("Form", "Users", FormMethod.Post))
+{
+  <div class="register-form">
+    <div class="form-name2">@(Model!.Id.HasValue ? "Edit User" : "New User")</div>
+
+    <div class="form-section">
+      @Html.LabelFor(x => x.UserRoleId, new { @class = "label-display"})
+      @Html.DropDownListFor(x => x.UserRoleId, (SelectList)ViewBag.roles, htmlAttributes: new { @class = "input2"})
+      @Html.ValidationMessageFor(x => x.UserRoleId)
+    </div>
+
+    <div class="form-section">
+      @Html.LabelFor(x => x.Username, new { @class = "label-display"})
+      @Html.TextBoxFor(x => x.Username, htmlAttributes: new { placeholder = "Username", @class = "input2" })
+      @Html.ValidationMessageFor(x => x.Username, "", new { @class = "validation-msg" })
+    </div>
+
+    <div class="form-section">
+      @Html.LabelFor(x => x.Name, new { @class = "label-display"})
+      @Html.TextBoxFor(x => x.Name, htmlAttributes: new { placeholder = "Name", @class = "input2" })
+      @Html.ValidationMessageFor(x => x.Name, "", new { @class = "validation-msg" })
+    </div>
+
+    <div class="form-section">
+      @Html.LabelFor(x => x.Email, new { @class = "label-display"})
+      @Html.TextBoxFor(x => x.Email, htmlAttributes: new { placeholder = "Email", @class = "input2" })
+      @Html.ValidationMessageFor(x => x.Email, "", new { @class = "validation-msg" })
+    </div>
+
+    <div class="form-section">
+      @Html.LabelFor(x => x.Password, new { @class = "label-display"})
+      @Html.PasswordFor(x => x.Password, htmlAttributes: new { placeholder = "Password", @class = "input2" })
+      @Html.ValidationMessageFor(x => x.Password, "", new { @class = "validation-msg" })
+    </div>
+
+    <div class="line2"></div>
+    <button class="btn2" type="submit">Save</button>
+    <div>
+      @Html.ValidationSummary(true)
+    </div>
+  </div>
+}
+
+@section Scripts {
+  @await Html.PartialAsync("_ValidationScriptsPartial")
+}
+
