@@ -1,0 +1,12 @@
+<mat-toolbar class="navbar navbar-style">
+  <div class="nav-logo" routerLink="home">Schedule</div>
+  <div class="navbar-items">
+    <button class="btn-color" mat-button routerLink="home" routerLinkActive="navbar-selected"><mat-icon>home</mat-icon></button>
+    <button class="btn-color" mat-button *ngFor="let item of items" [routerLink]="item.url" routerLinkActive="navbar-selected">
+      {{item.name}}
+    </button>
+    <button class="btn-color" mat-button (click)="logout()" >Logout</button>
+    <button class="btn-color" mat-button (click)="switchTheme()"><mat-icon>{{themeIcon}}</mat-icon></button>
+  </div>
+
+</mat-toolbar>

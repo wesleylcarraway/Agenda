@@ -1,0 +1,23 @@
+@model ContactFormViewModel
+
+@for (var i = 0; i < Model!.Phones.Count(); i++)
+{
+    <button type="submit" name="option" class="btn-remove-phone" value="RemovePhone|@i">
+      x
+    </button>
+    <div class="form-section">
+      @Html.LabelFor(x => x.Phones[i].FormattedNumber, new { @class = "label-display"})
+      @Html.TextBoxFor(x => x.Phones[i].FormattedNumber, htmlAttributes: new { placeholder = "Number", @class = "input2" })
+      @Html.ValidationMessageFor(x => x.Phones[i].FormattedNumber, "", new { @class = "validation-msg" })
+    </div>
+    <div class="form-section">
+      @Html.LabelFor(x => x.Phones[i].Description, new { @class = "label-display"})
+      @Html.TextBoxFor(x => x.Phones[i].Description, htmlAttributes: new { placeholder = "Description", @class = "input2" })
+      @Html.ValidationMessageFor(x => x.Phones[i].Description, "", new { @class = "validation-msg" })
+    </div>
+    <div class="form-section">
+      @Html.LabelFor(x => x.Phones[i].PhoneTypeId, new { @class = "label-display"})
+      @Html.DropDownListFor(x => x.Phones[i].PhoneTypeId, (SelectList)ViewBag.PhoneTypes, htmlAttributes: new { @class = "input2"})
+      @Html.ValidationMessageFor(x => x.Phones[i].PhoneTypeId)
+    </div>
+}

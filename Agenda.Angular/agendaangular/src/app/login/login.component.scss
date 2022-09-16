@@ -1,0 +1,35 @@
+.label-color {
+  color: var(--text-body)!important;
+}
+
+.select-color {
+  background-color: var(--body);
+  color: var(--text-body)!important;
+}
+
+.select-color:hover {
+  background-color: var(--body);
+  color: var(--text-body)!important;
+  opacity: 0.4;
+}
+
+.save-btn {
+  background-color: var(--primary);
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: var(--text-body)!important;
+
+}
+
+::ng-deep .mat-input-element {
+  color: var(--text-body)!important;
+}
+
+.logo-container {
+  color: var(--text-body)!important;
+}
+
+.register {
+  color: var(--primary);
+}

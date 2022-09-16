@@ -1,0 +1,35 @@
+<div class="form-container">
+  <div [formGroup]="form" class="form-group">
+
+    <div fxLayoutGap="1em">
+      <button class="save-btn" mat-raised-button [disabled]="form.invalid" color="primary" (click)="saveUserAsync()">Save</button>
+    </div>
+
+    <mat-form-field appearance="outline">
+      <mat-label class="label-color">UserName</mat-label>
+      <input matInput type="text" formControlName="username">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label class="label-color">Name</mat-label>
+      <input matInput type="text" formControlName="name">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label class="label-color">Email</mat-label>
+      <input matInput type="email" formControlName="email">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label class="label-color">Password</mat-label>
+      <input matInput type="password" formControlName="password">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label class="label-color">User Role</mat-label>
+      <mat-select formControlName="userRoleId">
+        <mat-option class="select-color" *ngFor="let item of roles" [value]="item.id">{{item.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+</div>
+

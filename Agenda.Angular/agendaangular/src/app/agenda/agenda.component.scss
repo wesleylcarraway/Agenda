@@ -1,0 +1,73 @@
+.delete-icon {
+  color: rgb(189, 42, 42);
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.accordion-container {
+  background-color: var(--body);
+  border: 1px solid var(--text-body);
+  color: var(--text-body);
+}
+
+.preview-color {
+  color: var(--text-body);
+}
+
+.add-btn {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: var(--primary);
+}
+
+.panel-body {
+  border: 1px solid var(--text-body);
+  border-radius: 5px;
+  background-color: var(--body);
+}
+
+.phone-table {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.paginator-color {
+  background-color: var(--body);
+  color: var(--text-body);
+}
+
+.phone-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #131313;
+  color: #f9f9f9;
+  height: 40px;
+
+}
+
+.phone-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  height: 40px;
+}
+
+.header-label {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100px;
+}
+
+.body-label {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100px;
+}

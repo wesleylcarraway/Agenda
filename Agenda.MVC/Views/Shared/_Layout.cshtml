@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - Agenda</title>
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/Agenda.MVC.styles.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/lib/font-awesome/css/fontawesome.css" />
+  @RenderSection("Styles", false)
+</head>
+<body>
+	<header>
+    @await Html.PartialAsync("_Header.cshtml")
+	</header>
+	<div class="container">
+		<main>
+			@RenderBody()
+		</main>
+    <aside>
+      @await Html.PartialAsync("_Navigation.cshtml")
+    </aside>
+	</div>
+
+	<script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+  <script src="~/lib/jquery/dist/jquery.js" asp-append-version="true"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+
+  @if(TempData.TryGetValue("toast", out var msg))
+  {
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        M.toast({html: '@Html.Raw(msg)'})
+      });
+    </script>
+  }
+</body>
+</html>

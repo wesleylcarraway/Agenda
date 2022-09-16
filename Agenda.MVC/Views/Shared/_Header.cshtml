@@ -1,0 +1,35 @@
+@using System.Security.Claims
+
+<link href="~/css/Header.css" rel="stylesheet" type="text/css" asp-append-version="true" />
+
+<div class="header">
+  <a class="logo" asp-controller="Home" asp-action="Index"><img src="@Url.Content("~/img/logohome.png")" width="150" height="40" alt="logo"></img></a>
+
+  <div class="log-container">
+    @if (User.Identity.IsAuthenticated)
+    {
+      <div class="log-container">
+        <div class="username">
+          <p>@User.Claims.FirstOrDefault(x => x.Type.Equals("Email", StringComparison.OrdinalIgnoreCase))?.Value</p>
+        </div>
+        <a asp-controller="Login" asp-action="Logout" class="logout-btn">
+          <p>Logout</p>
+        </a>
+      </div>
+    }
+    else
+    {
+      <a asp-controller="Login" asp-action="Index" class="login-btn">
+        <p>Log In</p>
+      </a>
+
+      <a href="/register" class="signup-btn">
+        <p>Sign Up</p>
+      </a>
+    }
+  </div>
+</div>
+
+@section Scripts {
+  @await Html.PartialAsync("_ValidationScriptsPartial")
+}

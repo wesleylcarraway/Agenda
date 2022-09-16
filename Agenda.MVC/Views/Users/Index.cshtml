@@ -1,0 +1,86 @@
+@model UserPaginationViewModel
+
+@{
+  ViewData["Title"] = "Users";
+}
+
+@section Styles {
+<link href='@Url.Content("~/css/AgendaAdmin2.css")' rel="stylesheet" type="text/css" asp-append-version="true" />
+}
+
+@using (Html.BeginForm("Index", "Users", FormMethod.Get))
+{
+  <div class="agenda-wrapper">
+    <div class="pagination">
+      <a href='@Url.Action("Form", "Users")' class="btn-add-contact">Add a new user</a>
+      <ul class="pagination-buttons">
+        <li>
+          <button name="page" class="pag-btn previuos" value="1">Previous</button>
+        </li>
+        @foreach (var pageNum in Enumerable.Range(1, Model.TotalPages))
+        {
+          <li>
+            <button type="submit" class='pag-btn blue-btn @(Model.CurrentPage == pageNum ? "active" : "")' name="page" value="@pageNum">@pageNum</button>
+          </li>
+        }
+        <li>
+          <button type="submit" class="pag-btn blue-btn next" name="page" value="@(Model.CurrentPage + 1)">Next</button>
+        </li>
+      </ul>
+      @using (Html.BeginForm("Index", "Users", FormMethod.Get))
+      {
+        <div class="search-area">
+          @Html.DropDownListFor(x => x.Search.Prop, Model!.GetSearchProps(), htmlAttributes: new { @class = "dropdown"})
+          @Html.ValidationMessageFor(x => x.Search.Prop)
+
+          @Html.TextBoxFor(x => x.Search.Value, htmlAttributes: new { placeholder = "Search", @class = "search-input"})
+
+          <button class="search-icon"><img src="@Url.Content("~/img/magnifyingglass.svg")" height="37px" alt="magnifying glass icon"></img></button>
+        </div>
+      }
+    </div>
+    <div class="card-section">
+      @foreach (var item in Model.Users.Data)
+      {
+        <div>
+          <ul>
+            <li class="card-wrapper-user">
+              <text class="user-role-display">@item.UserRole.Name<span>#@item.Id</span></text>
+              <div class="user-info">
+                <text class="username-display">@item.Username</text>
+                <text class="email-display">@item.Name</text>
+                <text class="email-display">@item.Email</text>
+                <text class="created-at-display">Created at: @item.CreatedAt</text>
+                <text class="created-at-display">Updated at: @item.UpdatedAt</text>
+              </div>
+
+              <div class="buttons-area">
+                <a href='@Url.Action("Form", "Users", new { id = @item.Id })' class="btn-edit">::</a>
+                <a href='@Url.Action("Remove", "Users", new {id = @item.Id})' class="btn-remove" data-itemid="@item.Id">X</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      }
+    </div>
+  </div>
+}
+
+@section Scripts {
+@await Html.PartialAsync("_ValidationScriptsPartial")
+<script>
+  $('.btn-remove').click(function (event) {
+    event.preventDefault()
+    alert('testeeee')
+    const itemid = $(this).data('itemid');
+    let option = prompt('Are you sure you want to delete this user? (y/n)')
+    if (option == 'y') {
+      const url = window.location.origin + '@Html.Raw(Url.Action("Remove", "Users"))' + '/' + '?id=' + itemid;
+      window.location.href = url;
+    }
+    else {
+      alert("não deu certo")
+    }
+  }
+</script>
+}

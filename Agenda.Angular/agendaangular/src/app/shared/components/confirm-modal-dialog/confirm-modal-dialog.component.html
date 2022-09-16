@@ -1,0 +1,13 @@
+<div class="confirm-dialog-container" fxLayout="column" fxLayoutAlign="space-between">
+  <div class="confirm-dialog-title" fxLayoutAlign="start center">
+    <mat-icon>{{config.icon || "info"}}</mat-icon>
+    <span>{{config.title}}</span>
+  </div>
+  <div>
+    <p>{{config.message}}</p>
+  </div>
+  <div fxLayoutAlign="end center">
+    <button class="save-btn" (click)="confirm(true)" mat-raised-button color="primary">{{config.confirmButtonLabel || "OK"}}</button>
+    <button (click)="confirm(false)" mat-button>{{config.cancelButtonLabel || "Cancel"}}</button>
+  </div>
+</div>

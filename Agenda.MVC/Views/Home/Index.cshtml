@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+@section Styles {
+  <link href='@Url.Content("~/css/home.css")' rel="stylesheet" type="text/css" asp-append-version="true"/>
+}
+
+<div class="home-wrapper">
+  <div>
+    <div class="first-square"></div>
+    <div class="second-square">Create and manage<br> your own contacts<br> schedule</div>
+    <div class="third-square"><img class="logo-img" src="@Url.Content("~/img/logohome.png")" width="150" height="40" alt="logo"></img></div>
+  </div>
+  <div>
+    <img class="square-img" src="@Url.Content("~/img/home-img.png")" alt="a man with a laptop"></img>
+  </div>
+</div>

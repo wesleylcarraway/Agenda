@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Agenda.ConsoleUI": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.ConsoleUI"
+    }
+  }
+}

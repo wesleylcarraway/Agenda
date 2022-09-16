@@ -1,0 +1,21 @@
+<div [formGroup]="form" fxFill fxLayoutAlign="center center">
+  <div class="login-container"  fxLayoutAlign="center" fxLayout="column">
+    <div class="logo-container">
+      <h1>Schedule</h1>
+    </div>
+    <mat-form-field appearance="fill">
+      <mat-label class="label-color">Username</mat-label>
+      <input  matInput type="text" formControlName="username">
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label class="label-color">Password</mat-label>
+      <input matInput type="password" formControlName="password">
+    </mat-form-field>
+
+    <button class="save-btn" mat-raised-button color="primary" (click)="loginAsync()" >Login</button>
+    <a routerLink="/register" class="register">
+      or register a new user
+    </a>
+  </div>
+
+</div>

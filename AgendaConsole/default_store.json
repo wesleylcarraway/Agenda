@@ -1,0 +1,42 @@
+﻿[
+  {
+    "Name": "contatonovo",
+    "Phones": [
+      {
+        "Id": 1,
+        "ContactId": 1,
+        "Description": "tes",
+        "FormattedPhone": "(11) 3847-0000",
+        "Ddd": 11,
+        "Number": "38470000"
+      },
+      {
+        "Id": 2,
+        "ContactId": 1,
+        "Description": "celular",
+        "FormattedPhone": "(84) 98574-3444",
+        "Ddd": 84,
+        "Number": "985743444"
+      }
+    ],
+    "Id": 1,
+    "CreatedAt": "2022-04-12T14:30:59.0432677-03:00",
+    "UpdatedAt": "2022-04-12T14:42:50.4461017-03:00"
+  },
+  {
+    "Name": "contatoddd",
+    "Phones": [
+      {
+        "Id": 7,
+        "ContactId": 3,
+        "Description": "numeroddd",
+        "FormattedPhone": "(23) 98437-3444",
+        "Ddd": 23,
+        "Number": "984373444"
+      }
+    ],
+    "Id": 3,
+    "CreatedAt": "2022-04-12T14:40:11.1088061-03:00",
+    "UpdatedAt": "2022-04-12T14:42:50.4462153-03:00"
+  }
+]

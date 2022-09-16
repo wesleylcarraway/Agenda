@@ -1,0 +1,49 @@
+.search-container {
+
+  width: 500px;
+
+}
+.search-option {
+  width: 100px;
+  margin-right: 10px;
+
+
+}
+
+.search-input {
+  width: 400px;
+}
+
+.search-btn {
+  width: 60px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 4px;
+  background-color: var(--primary);
+  color: var(--text-menu);
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: var(--text-body)!important;
+
+}
+
+
+::ng-deep .mat-input-element {
+  color: var(--text-body)!important;
+}
+
+.label-color {
+  color: var(--text-body)!important;
+}
+
+.select-color {
+  background-color: var(--body);
+  color: var(--text-body)!important;
+}
+
+.select-color:hover {
+  background-color: var(--body);
+  color: var(--text-body)!important;
+  opacity: 0.4;
+}
