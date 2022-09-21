@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rzNjgrg5CUg3oEMsdbvXOFCenlgYr+bdD7a4lX0SaDqNp1vxobD/3AcpXfRD6h5IGP4VNtKuq/gCaZKDK4X6Yg==",
+  "dgSpecHash": "zULodsgZ1OmYH5lZvRM8NQkFawt4hyChk7n/xfEODExmSuOuE2S2Sxlc9F+FlAhfDe27uEk+yW5t/PhevJvfGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.MVC\\Agenda.MVC.csproj",
+  "projectFilePath": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.MVC\\Agenda.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wesle\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\wesle\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

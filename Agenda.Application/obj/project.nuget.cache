@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MQ2OVoFjxHrtMqlPg/eefyTb3L+fkiFK/hIB32pLj1y24pN4Qb7ldnSZXXBD6xrM8Fh7vRxSyFMcBwW/J+KoHw==",
+  "dgSpecHash": "aR4FlYsfFLiGYUPs2iP5v9SPqcq5acaDXxAthsfhVr4c+JWi8+LSqytjTdWgB/3XAI+m0p14sJamX4a3dDf3iQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Application\\Agenda.Application.csproj",
+  "projectFilePath": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wesle\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\wesle\\.nuget\\packages\\entityframework\\6.3.0\\entityframework.6.3.0.nupkg.sha512",

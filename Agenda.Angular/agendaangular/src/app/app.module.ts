@@ -7,11 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginModule } from './login/login.module';
 import { AgendaModule } from './agenda/agenda.module';
 import { RegisterModule } from './register/register.module';
+import { InteractionsComponent } from './interactions/interactions.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
-  ],
+      InteractionsComponent
+   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

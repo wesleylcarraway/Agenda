@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/ivvHytMX6+PVJs2ZUmYUS7ewoWCftuHwljIIJQWc1GqMI2lQ52/oGow3d2sp8YXV3/rREz22sqXJs8Maw8T6g==",
+  "dgSpecHash": "2gJPuZGGgDcUhXWbJan5Tu5Jhca20TKoNcocin9pqd12JySRRQNFUr2/ftLwa5W5VyGroIfIQwJidRaEV+lllw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Domain\\Agenda.Domain.csproj",
+  "projectFilePath": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

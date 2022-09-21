@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DvNSZ18MwpjM1tlUE4xsW7zB+Vagsvr+C0IJMoG+3zufcisQ8fBawYvw8EVss0/JKSapEFWail2Rj/I1z5/1dQ==",
+  "dgSpecHash": "8hDQlF587N45yRXD471cXx4WdwdTATUByuLR5+/JyKAtUxhvcWeTDpFnlU0uHaCs3CoWdo4DrGW1emVEZS3ovA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj",
+  "projectFilePath": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wesle\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\wesle\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.5\\microsoft.aspnetcore.cryptography.internal.6.0.5.nupkg.sha512",
