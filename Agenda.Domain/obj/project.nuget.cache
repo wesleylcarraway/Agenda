@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2gJPuZGGgDcUhXWbJan5Tu5Jhca20TKoNcocin9pqd12JySRRQNFUr2/ftLwa5W5VyGroIfIQwJidRaEV+lllw==",
+  "dgSpecHash": "v62mpW687JpmvmLZtERKEKVtCRZrYfbI+iOzOd4cb2qDfmaD8ZuMgzYPbturv/yfI2mB8P9zswQSONHhCiP7TQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj",
+  "projectFilePath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

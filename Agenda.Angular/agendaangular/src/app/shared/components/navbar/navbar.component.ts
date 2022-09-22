@@ -26,7 +26,8 @@ export class NavbarComponent implements OnInit {
 
   setNavbarItems(): void {
     this.items = [
-      { name: 'Contacts', url: 'agenda', icon: 'people' }
+      { name: 'Contacts', url: 'agenda', icon: 'people' },
+      { name: 'Interactions', url: 'interactions', icon: 'people' }
     ];
     if (this.authService.getRole() == Roles.ADMIN) {
       this.items.push(
