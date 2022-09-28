@@ -8,6 +8,7 @@ import { LoginModule } from './login/login.module';
 import { AgendaModule } from './agenda/agenda.module';
 import { RegisterModule } from './register/register.module';
 import { InteractionsModule } from './interactions/interactions.module';
+import { UploadFileModule } from './upload-file/upload-file.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { InteractionsModule } from './interactions/interactions.module';
     LoginModule,
     AgendaModule,
     RegisterModule,
-    InteractionsModule
+    InteractionsModule,
+    UploadFileModule
   ],
   providers: [],
   bootstrap: [AppComponent]
