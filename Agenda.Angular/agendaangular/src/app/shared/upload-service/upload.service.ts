@@ -1,5 +1,5 @@
-import { HttpClient } from '@angular/common/http';
-import { Inject, Injectable } from '@angular/core';
+import { HttpClient} from '@angular/common/http';
+import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 
@@ -7,7 +7,6 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class UploadService {
-
   env = environment;
 
   constructor(
@@ -15,7 +14,8 @@ export class UploadService {
   ) { }
 
   upload(files: File[]): Observable<File[]> {
-    return this.http.post<File[]>(`${this.env.API_URL}/upload`, files);
+    const formData = new FormData();
+    files.forEach(file => formData.append('files', file, file.name));
+    return this.http.post<File[]>(`${this.env.API_URL}/upload`, formData);
   }
-
 }

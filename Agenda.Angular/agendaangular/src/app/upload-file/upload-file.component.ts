@@ -1,6 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import { ConnectableObservable, lastValueFrom } from 'rxjs';
+import { Component } from '@angular/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { lastValueFrom } from 'rxjs';
+import { BaseError } from '../shared/http-service/base-error';
 import { UploadService } from '../shared/upload-service/upload.service';
+import { apiErrorHandler } from '../shared/utils/api-error-handler';
 
 @Component({
   selector: 'app-upload-file',
@@ -10,28 +13,27 @@ import { UploadService } from '../shared/upload-service/upload.service';
 export class UploadFileComponent {
   files!: File[];
 
-  constructor(private uploadService: UploadService) { }
+  constructor(
+    private uploadService: UploadService,
+    private snackBar: MatSnackBar
+    ) { }
 
   async onChange(event: any) {
-    //console.log(event);
     const selectedFiles = <FileList>event.srcElement.files;
-    this.files = new Array<File>;
+    this.files = new Array();
     for(let i = 0; i < selectedFiles.length; i++) {
-      //console.log(selectedFiles[i].name)
       this.files.push(selectedFiles[i]);
-      console.log(this.files[i].name)
-
     }
-    await this.uploadFile();
   }
 
   async uploadFile(): Promise<void> {
     try {
-      await lastValueFrom(this.uploadService.upload(this.files));
-        //this.snackBar.open('Contact saved!', undefined, { duration: 3000 });
+      if(this.files && this.files.length > 0) {
+        await lastValueFrom(this.uploadService.upload(this.files));
+        this.snackBar.open('File uploaded!', undefined, { duration: 3000 });
+      }
     } catch ({ error }) {
-      //apiErrorHandler(this.snackBar, error as BaseError);
+      apiErrorHandler(this.snackBar, error as BaseError);
     }
   }
-
 }
