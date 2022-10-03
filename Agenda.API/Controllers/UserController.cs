@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using Agenda.Application.Interfaces;
 using Agenda.Application.Params;
 using Agenda.Application.ViewModels;
@@ -70,6 +71,27 @@ namespace Agenda.API.Controllers
         public IEnumerable<UserRoleResponse> GetUserRoles()
         {
             return _userService.GetUserRoles();
+        }
+
+        [HttpGet]
+        public async Task<ActionResult> GetUser()
+        {
+            var id = GetUserId();
+            var result = await _userService.GetByIdAsync(id);
+            return Ok(result);
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult> Delete()
+        {
+            var id = GetUserId();
+            var result = await _userService.RemoveAsync(id);
+            return Ok(result);
+        }
+
+        private int GetUserId()
+        {
+            return int.Parse(User.FindFirst(ClaimTypes.Sid)!.Value);
         }
     }
 }

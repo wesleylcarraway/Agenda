@@ -1,0 +1,23 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+
+  margin: auto;
+  margin-top: 50px;
+}
+
+.card-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-btn {
+  width: 200px;
+  text-align:left;
+}
+
+.logout-btn {
+  padding-left: 20px;
+}

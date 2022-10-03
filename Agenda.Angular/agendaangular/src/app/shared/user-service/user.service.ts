@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { Enumeration } from '../entities/enumeration';
 import { User } from '../entities/user';
 import { HttpBaseService } from '../http-service/http-base.service';
+import { take } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -22,5 +23,13 @@ export class UserService extends HttpBaseService<User> {
 
   getAllUsersAsync(): Observable<User[]> {
     return this.http.get<User[]>(`${this.env.API_URL}/${this.route}/all`);
+  }
+
+  getUser() {
+    return this.http.get<User>(`${this.env}${this.route}`).pipe(take(1));
+  }
+
+  deleteUser() {
+    return this.http.delete<void>(`${this.env}${this.route}`).pipe(take(1));
   }
 }
