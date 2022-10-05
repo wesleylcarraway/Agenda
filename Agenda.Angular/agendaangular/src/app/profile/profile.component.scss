@@ -5,6 +5,13 @@
 
   margin: auto;
   margin-top: 50px;
+  background-color: var(--body);
+  color: var(--text-body);
+  border: 1px solid var(--text-body);
+}
+
+.email-title {
+  color: var(--text-body);
 }
 
 .card-actions {

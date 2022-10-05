@@ -26,10 +26,10 @@ export class UserService extends HttpBaseService<User> {
   }
 
   getUser() {
-    return this.http.get<User>(`${this.env}${this.route}`).pipe(take(1));
+    return this.http.get<User>(`${this.env.API_URL}/${this.route}/get-user`).pipe(take(1));
   }
 
   deleteUser() {
-    return this.http.delete<void>(`${this.env}${this.route}`).pipe(take(1));
+    return this.http.delete<void>(`${this.env.API_URL}/${this.route}/delete-user`).pipe(take(1));
   }
 }

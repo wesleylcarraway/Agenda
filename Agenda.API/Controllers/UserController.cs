@@ -73,7 +73,7 @@ namespace Agenda.API.Controllers
             return _userService.GetUserRoles();
         }
 
-        [HttpGet]
+        [HttpGet("get-user")]
         public async Task<ActionResult> GetUser()
         {
             var id = GetUserId();
@@ -81,7 +81,7 @@ namespace Agenda.API.Controllers
             return Ok(result);
         }
 
-        [HttpDelete]
+        [HttpDelete("delete-user")]
         public async Task<ActionResult> Delete()
         {
             var id = GetUserId();

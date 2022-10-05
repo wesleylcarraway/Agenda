@@ -13,7 +13,7 @@ import { UserService } from '../shared/user-service/user.service';
   styleUrls: ['./profile.component.scss']
 })
 export class ProfileComponent implements OnInit {
-  user!: User;
+  user: User = new User();
 
   constructor(
     private userService: UserService,
