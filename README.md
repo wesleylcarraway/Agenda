@@ -12,7 +12,7 @@ Query Params, Fluent Validation, DTO's, Filters, AutoMapper, User Authentication
 ### API
 Swagger, Asp net core Identity, Exception Filter
 ### Angular
-Routing, Guards, Interceptors, SASS, Angular Material, Searching, Pagination, Uder Authentication, Http Service to consume the API, RXJS
+Routing, Guards, Interceptors, SASS, Angular Material, Searching, Pagination, User Authentication, Http Service to consume the API, RXJS
 ## Try it on your machine
 ```
 git clone https://github.com/wesleylcarraway/Agenda.git
