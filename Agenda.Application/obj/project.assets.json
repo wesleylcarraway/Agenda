@@ -253,7 +253,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Http/2.2.0": {
+      "Microsoft.AspNetCore.Http/2.2.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -1495,6 +1495,9 @@
       "Agenda.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http": "2.2.2"
+        },
         "compile": {
           "bin/placeholder/Agenda.Domain.dll": {}
         },
@@ -1824,16 +1827,16 @@
         "microsoft.aspnetcore.hosting.server.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http/2.2.0": {
-      "sha512": "YogBSMotWPAS/X5967pZ+yyWPQkThxhmzAwyCHCSSldzYBkW5W5d6oPfBaPqQOnSHYTpSOSOkpZoAce0vwb6+A==",
+    "Microsoft.AspNetCore.Http/2.2.2": {
+      "sha512": "BAibpoItxI5puk7YJbIGj95arZueM8B8M5xT1fXBn3hb3L2G3ucrZcYXv1gXdaroLbntUs8qeV8iuBrpjQsrKw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http/2.2.0",
+      "path": "microsoft.aspnetcore.http/2.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.xml",
-        "microsoft.aspnetcore.http.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
         "microsoft.aspnetcore.http.nuspec"
       ]
     },
@@ -3988,11 +3991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Application\\Agenda.Application.csproj",
+      "projectUniqueName": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj",
       "projectName": "Agenda.Application",
-      "projectPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Application\\Agenda.Application.csproj",
+      "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj",
       "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Application\\obj\\",
+      "outputPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4013,11 +4016,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Domain\\Agenda.Domain.csproj": {
-              "projectPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Domain\\Agenda.Domain.csproj"
+            "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj": {
+              "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj"
             },
-            "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj"
+            "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj"
             }
           }
         }

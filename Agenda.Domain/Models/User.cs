@@ -11,5 +11,6 @@ namespace Agenda.Domain.Models
         public string Password { get; set; }
         public UserRole UserRole { get; set; }
         public int UserRoleId { get; set; }
+
     }
 }

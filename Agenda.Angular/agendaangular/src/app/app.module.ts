@@ -7,11 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginModule } from './login/login.module';
 import { AgendaModule } from './agenda/agenda.module';
 import { RegisterModule } from './register/register.module';
+import { InteractionsModule } from './interactions/interactions.module';
+import { UploadFileModule } from './upload-file/upload-file.module';
+import { ProfileModule } from './profile/profile.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-  ],
+
+   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -19,7 +23,10 @@ import { RegisterModule } from './register/register.module';
     AppRoutingModule,
     LoginModule,
     AgendaModule,
-    RegisterModule
+    RegisterModule,
+    InteractionsModule,
+    UploadFileModule,
+    ProfileModule
   ],
   providers: [],
   bootstrap: [AppComponent]

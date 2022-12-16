@@ -722,11 +722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.MVC\\Agenda.MVC.csproj",
+      "projectUniqueName": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.MVC\\Agenda.MVC.csproj",
       "projectName": "Agenda.MVC",
-      "projectPath": "c:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.MVC\\Agenda.MVC.csproj",
+      "projectPath": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.MVC\\Agenda.MVC.csproj",
       "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.MVC\\obj\\",
+      "outputPath": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

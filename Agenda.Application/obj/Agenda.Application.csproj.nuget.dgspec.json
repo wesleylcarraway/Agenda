@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Application\\Agenda.Application.csproj": {}
+    "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Application\\Agenda.Application.csproj": {
+    "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Application\\Agenda.Application.csproj",
+        "projectUniqueName": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj",
         "projectName": "Agenda.Application",
-        "projectPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Application\\Agenda.Application.csproj",
+        "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj",
         "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Application\\obj\\",
+        "outputPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Domain\\Agenda.Domain.csproj": {
-                "projectPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Domain\\Agenda.Domain.csproj"
+              "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj": {
+                "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj"
               },
-              "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj"
+              "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Domain\\Agenda.Domain.csproj": {
+    "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Domain\\Agenda.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj",
         "projectName": "Agenda.Domain",
-        "projectPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Domain\\Agenda.Domain.csproj",
+        "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj",
         "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Domain\\obj\\",
+        "outputPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -126,6 +126,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -145,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj": {
+    "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj",
         "projectName": "Agenda.Infrastructure",
-        "projectPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Infrastructure\\Agenda.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -173,8 +179,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Domain\\Agenda.Domain.csproj": {
-                "projectPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Domain\\Agenda.Domain.csproj"
+              "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj": {
+                "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Domain\\Agenda.Domain.csproj"
               }
             }
           }

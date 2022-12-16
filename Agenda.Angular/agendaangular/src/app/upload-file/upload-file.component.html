@@ -1,0 +1,8 @@
+<div class="mb-3">
+  <label for="formFile" class="form-label"></label>
+  <input class="form-control" type="file" id="formFile" (change)="onChange($event)">
+</div>
+
+<button class="btn" mat-raised-button color="primary" (click)="uploadFile()">
+  <span>Upload</span>
+</button>

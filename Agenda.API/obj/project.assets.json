@@ -355,21 +355,21 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.HostFiltering.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Hosting/2.2.0": {
+      "Microsoft.AspNetCore.Hosting/2.2.7": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
           "Microsoft.Extensions.Configuration": "2.2.0",
-          "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.2.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.2.4",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Microsoft.Extensions.FileProviders.Physical": "2.2.0",
           "Microsoft.Extensions.Hosting.Abstractions": "2.2.0",
           "Microsoft.Extensions.Logging": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
-          "System.Diagnostics.DiagnosticSource": "4.5.0",
+          "System.Diagnostics.DiagnosticSource": "4.5.1",
           "System.Reflection.Metadata": "1.6.0"
         },
         "compile": {
@@ -418,7 +418,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Http/2.2.0": {
+      "Microsoft.AspNetCore.Http/2.2.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -1334,7 +1334,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.EnvironmentVariables/2.2.0": {
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/2.2.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "2.2.0"
@@ -3646,6 +3646,9 @@
       "Agenda.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http": "2.2.2"
+        },
         "compile": {
           "bin/placeholder/Agenda.Domain.dll": {}
         },
@@ -4095,16 +4098,16 @@
         "microsoft.aspnetcore.hostfiltering.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Hosting/2.2.0": {
-      "sha512": "7t4RbUGugpHtQmzAkc9fpDdYJg6t/jcB2VVnjensVYbZFnLDU8pNrG0hrekk1DQG7P2UzpSqKLzDsFF0/lkkbw==",
+    "Microsoft.AspNetCore.Hosting/2.2.7": {
+      "sha512": "O0ZBE53Fa9bVGXykDzvgMFW0Pe1QyPPFg1pazN8l3RUFSWBsDJ9/iD1LHXgADA8+ZD3R/1zkvraPa9SZdievxQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.hosting/2.2.0",
+      "path": "microsoft.aspnetcore.hosting/2.2.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.xml",
-        "microsoft.aspnetcore.hosting.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.2.2.7.nupkg.sha512",
         "microsoft.aspnetcore.hosting.nuspec"
       ]
     },
@@ -4147,16 +4150,16 @@
         "microsoft.aspnetcore.html.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http/2.2.0": {
-      "sha512": "YogBSMotWPAS/X5967pZ+yyWPQkThxhmzAwyCHCSSldzYBkW5W5d6oPfBaPqQOnSHYTpSOSOkpZoAce0vwb6+A==",
+    "Microsoft.AspNetCore.Http/2.2.2": {
+      "sha512": "BAibpoItxI5puk7YJbIGj95arZueM8B8M5xT1fXBn3hb3L2G3ucrZcYXv1gXdaroLbntUs8qeV8iuBrpjQsrKw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http/2.2.0",
+      "path": "microsoft.aspnetcore.http/2.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.xml",
-        "microsoft.aspnetcore.http.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
         "microsoft.aspnetcore.http.nuspec"
       ]
     },
@@ -5242,16 +5245,16 @@
         "microsoft.extensions.configuration.commandline.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.EnvironmentVariables/2.2.0": {
-      "sha512": "gIqt9PkKO01hZ0zmHnWrZ1E45MDreZTVoyDbL1kMWKtDgxxWTJpYtESTEcgpvR1uB1iex1zKGYzJpOMgmuP5TQ==",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables/2.2.4": {
+      "sha512": "Os7uRhp9xwawY5w2tgXw/86YrmAJZl6aHiQVdS9boWybTWPkJOvXXrQ3AGwuldN1W/r+cfnwRe2ePGeFO4zlzg==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.environmentvariables/2.2.0",
+      "path": "microsoft.extensions.configuration.environmentvariables/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.xml",
-        "microsoft.extensions.configuration.environmentvariables.2.2.0.nupkg.sha512",
+        "microsoft.extensions.configuration.environmentvariables.2.2.4.nupkg.sha512",
         "microsoft.extensions.configuration.environmentvariables.nuspec"
       ]
     },
@@ -10739,6 +10742,7 @@
       "FluentValidation >= 11.0.2",
       "FluentValidation.AspNetCore >= 11.0.2",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.5",
+      "Microsoft.AspNetCore.Hosting >= 2.2.7",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.5",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.5",
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
@@ -10757,11 +10761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.API\\Agenda.API.csproj",
+      "projectUniqueName": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.API\\Agenda.API.csproj",
       "projectName": "Agenda.API",
-      "projectPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.API\\Agenda.API.csproj",
+      "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.API\\Agenda.API.csproj",
       "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.API\\obj\\",
+      "outputPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10782,8 +10786,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Application\\Agenda.Application.csproj": {
-              "projectPath": "C:\\Users\\wesle\\Luby\\Repos\\incubadora-dotnet-3\\entregas\\marcelo-wesley\\src\\Agenda\\AgendaConsole\\Agenda.Application\\Agenda.Application.csproj"
+            "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj": {
+              "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj"
             }
           }
         }
@@ -10813,6 +10817,10 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[6.0.5, )"
+          },
+          "Microsoft.AspNetCore.Hosting": {
+            "target": "Package",
+            "version": "[2.2.7, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
