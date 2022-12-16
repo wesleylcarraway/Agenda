@@ -38,4 +38,9 @@ export class AuthService {
     window.localStorage.removeItem("@token");
     window.localStorage.removeItem("@role");
   }
+
+  logout(){
+    window.localStorage.removeItem("@token");
+    window.localStorage.removeItem("@role");
+  }
 }
