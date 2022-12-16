@@ -34,6 +34,8 @@ namespace Agenda.API.Config
             services.AddScoped<ICommonUserService, CommonUserService>();
 
             services.AddScoped<IInteractionService, InteractionService>();
+            services.AddScoped<IUploadFileService, UploadFileService>();
+            services.AddScoped<ISendEmailService, SendEmailService>();
 
             services.AddFluentValidation(fv =>
             {

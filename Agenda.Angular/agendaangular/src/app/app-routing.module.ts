@@ -14,6 +14,7 @@ import { UsersComponent } from './users/users.component';
 import { UsersFormComponent } from './users/users-form/users-form.component';
 import { RegisterComponent } from './register/register.component';
 import { InteractionsComponent } from './interactions/interactions.component';
+import { UploadFileComponent } from './upload-file/upload-file.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,7 @@ const routes: Routes = [
       ]
       },
       {path: 'interactions', component: InteractionsComponent},
+      {path: 'upload', component: UploadFileComponent},
       {
         path: 'admin',
         canActivate: [AuthAdminGuard],

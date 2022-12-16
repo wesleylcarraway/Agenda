@@ -10,6 +10,7 @@ using Agenda.Application.ViewModels.Phone;
 using Agenda.Application.ViewModels.PhoneType;
 using Agenda.Application.ViewModels.Interaction;
 using Agenda.Application.ViewModels.InteractionType;
+using Agenda.Application.ViewModels.Email;
 
 namespace Agenda.Application.Mappers
 {
@@ -25,6 +26,7 @@ namespace Agenda.Application.Mappers
             CreateMap<UserRole, UserRoleResponse>();
             CreateMap<Interaction, InteractionResponse>();
             CreateMap<InteractionType, InteractionTypeResponse>();
+            CreateMap<Email, EmailResponse>();
 
             CreateMap<ContactRequest, Contact>()
                 .MergeList(x => x.Phones, vm => vm.Phones);
@@ -39,6 +41,7 @@ namespace Agenda.Application.Mappers
 
             CreateMap<UserRequest, User>();
             CreateMap<CommonUserRequest, User>();
+            CreateMap<EmailRequest, Email>();
         }
     }
 }
