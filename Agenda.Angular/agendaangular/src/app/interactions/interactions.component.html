@@ -1,3 +1,22 @@
-<p>
-  interactions works!
-</p>
+<div class="panel-body">
+  <div class="user-table">
+    <div class="user-header">
+      <div class="header-label">id</div>
+      <div class="header-label">message</div>
+      <div class="header-label">userId</div>
+      <div class="header-label">interactionTypeId</div>
+      <div class="header-label">createdAt</div>
+    </div>
+    <div class="user-body" *ngFor="let item of data">
+      <div class="body-label">{{item.id}}</div>
+      <div class="body-label">{{item.message}}</div>
+      <div class="body-label">{{item.userId}}</div>
+      <div class="body-label">{{item.interactionTypeId}}</div>
+      <div class="body-label">{{item.createdAt}}</div>
+    </div>
+  </div>
+</div>
+
+<button class="btn" mat-raised-button color="accent" (click)="generatePdf()">
+  <span>Download interactions as PDF!</span>
+</button>

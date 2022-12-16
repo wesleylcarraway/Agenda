@@ -7,7 +7,7 @@ namespace Agenda.API.Controllers
 {
     [ApiController]
     [Route("api/interactions")]
-    [Authorize]
+    //[Authorize]
     public class InteractionController : ControllerBase
     {
         private readonly IInteractionService _interactionService;
@@ -15,7 +15,7 @@ namespace Agenda.API.Controllers
         {
             _interactionService = interactionService;
         }
-        [HttpPost]
+        [HttpGet]
         public async Task<IEnumerable<InteractionResponse>> SaveInteractionsAsync()
         {
             return await _interactionService.SaveJsonInteractionsAsync();

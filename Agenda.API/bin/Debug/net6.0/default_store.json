@@ -138,5 +138,1455 @@
     "Id": 8,
     "CreatedAt": "2022-06-13T10:52:43.0505286-03:00",
     "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 1,
+    "CreatedAt": "2022-09-22T02:08:12.9069795-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 2,
+    "CreatedAt": "2022-09-22T02:08:12.9069833-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 3,
+    "CreatedAt": "2022-09-22T02:08:12.9069835-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 4,
+    "CreatedAt": "2022-09-22T02:08:12.9069838-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 5,
+    "CreatedAt": "2022-09-22T02:08:12.906984-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 6,
+    "CreatedAt": "2022-09-22T02:08:12.9069842-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 7,
+    "CreatedAt": "2022-09-22T02:08:12.9069844-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 8,
+    "CreatedAt": "2022-09-22T02:08:12.9069846-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 9,
+    "CreatedAt": "2022-09-22T02:08:12.9069847-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 10,
+    "CreatedAt": "2022-09-22T02:08:12.9069849-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 11,
+    "CreatedAt": "2022-09-22T02:08:12.9069851-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 12,
+    "CreatedAt": "2022-09-22T02:08:12.9069853-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 13,
+    "CreatedAt": "2022-09-22T02:08:12.9069855-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 14,
+    "CreatedAt": "2022-09-22T02:08:12.9069856-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 15,
+    "CreatedAt": "2022-09-22T02:08:12.9069858-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 16,
+    "CreatedAt": "2022-09-22T02:08:12.9069859-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 3,
+    "InteractionType": null,
+    "Message": "Removing Contact",
+    "Id": 17,
+    "CreatedAt": "2022-09-22T02:08:12.906986-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 18,
+    "CreatedAt": "2022-09-22T02:08:12.9069862-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 19,
+    "CreatedAt": "2022-09-22T02:08:12.9069864-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 20,
+    "CreatedAt": "2022-09-22T02:08:12.9069866-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 21,
+    "CreatedAt": "2022-09-22T02:08:12.9069868-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 22,
+    "CreatedAt": "2022-09-22T02:08:12.9069869-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 23,
+    "CreatedAt": "2022-09-22T02:08:12.9069871-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 24,
+    "CreatedAt": "2022-09-22T02:08:12.9069873-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 25,
+    "CreatedAt": "2022-09-22T02:08:12.9069876-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 26,
+    "CreatedAt": "2022-09-22T02:08:12.9069877-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 27,
+    "CreatedAt": "2022-09-22T02:08:12.906988-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 28,
+    "CreatedAt": "2022-09-22T02:08:12.9069883-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 3,
+    "InteractionType": null,
+    "Message": "Removing Contact",
+    "Id": 29,
+    "CreatedAt": "2022-09-22T02:08:12.9069885-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 1,
+    "CreatedAt": "2022-09-22T02:54:42.0138285-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 2,
+    "CreatedAt": "2022-09-22T02:54:42.0138324-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 3,
+    "CreatedAt": "2022-09-22T02:54:42.013833-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 4,
+    "CreatedAt": "2022-09-22T02:54:42.0138332-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 5,
+    "CreatedAt": "2022-09-22T02:54:42.0138335-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 6,
+    "CreatedAt": "2022-09-22T02:54:42.013834-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 7,
+    "CreatedAt": "2022-09-22T02:54:42.0138343-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 8,
+    "CreatedAt": "2022-09-22T02:54:42.0138345-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 9,
+    "CreatedAt": "2022-09-22T02:54:42.013835-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 10,
+    "CreatedAt": "2022-09-22T02:54:42.0138353-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 11,
+    "CreatedAt": "2022-09-22T02:54:42.0138356-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 12,
+    "CreatedAt": "2022-09-22T02:54:42.0138358-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 13,
+    "CreatedAt": "2022-09-22T02:54:42.013836-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 14,
+    "CreatedAt": "2022-09-22T02:54:42.0138361-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 15,
+    "CreatedAt": "2022-09-22T02:54:42.0138363-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 16,
+    "CreatedAt": "2022-09-22T02:54:42.0138365-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 3,
+    "InteractionType": null,
+    "Message": "Removing Contact",
+    "Id": 17,
+    "CreatedAt": "2022-09-22T02:54:42.0138366-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 18,
+    "CreatedAt": "2022-09-22T02:54:42.0138369-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 19,
+    "CreatedAt": "2022-09-22T02:54:42.0138374-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 20,
+    "CreatedAt": "2022-09-22T02:54:42.0138376-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 21,
+    "CreatedAt": "2022-09-22T02:54:42.0138379-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 22,
+    "CreatedAt": "2022-09-22T02:54:42.0138381-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 23,
+    "CreatedAt": "2022-09-22T02:54:42.0138387-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 24,
+    "CreatedAt": "2022-09-22T02:54:42.0138389-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 25,
+    "CreatedAt": "2022-09-22T02:54:42.0138394-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 26,
+    "CreatedAt": "2022-09-22T02:54:42.0138396-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 27,
+    "CreatedAt": "2022-09-22T02:54:42.0138398-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 28,
+    "CreatedAt": "2022-09-22T02:54:42.01384-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 3,
+    "InteractionType": null,
+    "Message": "Removing Contact",
+    "Id": 29,
+    "CreatedAt": "2022-09-22T02:54:42.0138403-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 1,
+    "CreatedAt": "2022-09-22T02:54:54.5835969-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 2,
+    "CreatedAt": "2022-09-22T02:54:54.5835996-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 3,
+    "CreatedAt": "2022-09-22T02:54:54.5835998-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 4,
+    "CreatedAt": "2022-09-22T02:54:54.5836-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 5,
+    "CreatedAt": "2022-09-22T02:54:54.5836002-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 6,
+    "CreatedAt": "2022-09-22T02:54:54.5836004-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 7,
+    "CreatedAt": "2022-09-22T02:54:54.5836006-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 8,
+    "CreatedAt": "2022-09-22T02:54:54.5836007-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 9,
+    "CreatedAt": "2022-09-22T02:54:54.5836009-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 10,
+    "CreatedAt": "2022-09-22T02:54:54.5836011-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 11,
+    "CreatedAt": "2022-09-22T02:54:54.5836012-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 12,
+    "CreatedAt": "2022-09-22T02:54:54.5836014-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 13,
+    "CreatedAt": "2022-09-22T02:54:54.5836015-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 14,
+    "CreatedAt": "2022-09-22T02:54:54.5836017-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 15,
+    "CreatedAt": "2022-09-22T02:54:54.5836019-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 16,
+    "CreatedAt": "2022-09-22T02:54:54.583602-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 3,
+    "InteractionType": null,
+    "Message": "Removing Contact",
+    "Id": 17,
+    "CreatedAt": "2022-09-22T02:54:54.5836022-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 18,
+    "CreatedAt": "2022-09-22T02:54:54.5836023-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 19,
+    "CreatedAt": "2022-09-22T02:54:54.5836025-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 20,
+    "CreatedAt": "2022-09-22T02:54:54.5836026-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 21,
+    "CreatedAt": "2022-09-22T02:54:54.5836028-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 22,
+    "CreatedAt": "2022-09-22T02:54:54.583603-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 23,
+    "CreatedAt": "2022-09-22T02:54:54.5836032-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 24,
+    "CreatedAt": "2022-09-22T02:54:54.5836033-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 25,
+    "CreatedAt": "2022-09-22T02:54:54.5836035-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 26,
+    "CreatedAt": "2022-09-22T02:54:54.5836036-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 27,
+    "CreatedAt": "2022-09-22T02:54:54.5836038-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 28,
+    "CreatedAt": "2022-09-22T02:54:54.583604-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 3,
+    "InteractionType": null,
+    "Message": "Removing Contact",
+    "Id": 29,
+    "CreatedAt": "2022-09-22T02:54:54.5836041-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 1,
+    "CreatedAt": "2022-09-22T02:55:04.214297-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 2,
+    "CreatedAt": "2022-09-22T02:55:04.2143025-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 3,
+    "CreatedAt": "2022-09-22T02:55:04.2143026-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 4,
+    "CreatedAt": "2022-09-22T02:55:04.2143028-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 5,
+    "CreatedAt": "2022-09-22T02:55:04.2143031-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 6,
+    "CreatedAt": "2022-09-22T02:55:04.2143032-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 7,
+    "CreatedAt": "2022-09-22T02:55:04.2143033-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 8,
+    "CreatedAt": "2022-09-22T02:55:04.2143042-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 9,
+    "CreatedAt": "2022-09-22T02:55:04.2143043-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 10,
+    "CreatedAt": "2022-09-22T02:55:04.2143046-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 11,
+    "CreatedAt": "2022-09-22T02:55:04.2143058-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 12,
+    "CreatedAt": "2022-09-22T02:55:04.2143061-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 13,
+    "CreatedAt": "2022-09-22T02:55:04.2143063-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 14,
+    "CreatedAt": "2022-09-22T02:55:04.2143064-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 15,
+    "CreatedAt": "2022-09-22T02:55:04.2143065-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 16,
+    "CreatedAt": "2022-09-22T02:55:04.2143067-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 3,
+    "InteractionType": null,
+    "Message": "Removing Contact",
+    "Id": 17,
+    "CreatedAt": "2022-09-22T02:55:04.2143068-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 18,
+    "CreatedAt": "2022-09-22T02:55:04.214307-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 19,
+    "CreatedAt": "2022-09-22T02:55:04.2143073-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 20,
+    "CreatedAt": "2022-09-22T02:55:04.2143078-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 21,
+    "CreatedAt": "2022-09-22T02:55:04.2143079-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 22,
+    "CreatedAt": "2022-09-22T02:55:04.214308-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 23,
+    "CreatedAt": "2022-09-22T02:55:04.2143081-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 24,
+    "CreatedAt": "2022-09-22T02:55:04.2143083-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 25,
+    "CreatedAt": "2022-09-22T02:55:04.2143084-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 26,
+    "CreatedAt": "2022-09-22T02:55:04.2143085-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 27,
+    "CreatedAt": "2022-09-22T02:55:04.2143086-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 28,
+    "CreatedAt": "2022-09-22T02:55:04.2143088-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 3,
+    "InteractionType": null,
+    "Message": "Removing Contact",
+    "Id": 29,
+    "CreatedAt": "2022-09-22T02:55:04.2143089-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 1,
+    "CreatedAt": "2022-09-22T02:55:57.9800895-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 2,
+    "CreatedAt": "2022-09-22T02:55:57.9800907-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 3,
+    "CreatedAt": "2022-09-22T02:55:57.9800908-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 4,
+    "CreatedAt": "2022-09-22T02:55:57.980091-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 5,
+    "CreatedAt": "2022-09-22T02:55:57.9800912-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 6,
+    "CreatedAt": "2022-09-22T02:55:57.9800913-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 7,
+    "CreatedAt": "2022-09-22T02:55:57.9800914-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 8,
+    "CreatedAt": "2022-09-22T02:55:57.9800916-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 9,
+    "CreatedAt": "2022-09-22T02:55:57.9800918-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 10,
+    "CreatedAt": "2022-09-22T02:55:57.9800919-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 11,
+    "CreatedAt": "2022-09-22T02:55:57.980092-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 12,
+    "CreatedAt": "2022-09-22T02:55:57.9800922-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 13,
+    "CreatedAt": "2022-09-22T02:55:57.9800924-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 14,
+    "CreatedAt": "2022-09-22T02:55:57.9800925-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 15,
+    "CreatedAt": "2022-09-22T02:55:57.9800926-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 16,
+    "CreatedAt": "2022-09-22T02:55:57.9800928-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 1,
+    "InteractionTypeId": 3,
+    "InteractionType": null,
+    "Message": "Removing Contact",
+    "Id": 17,
+    "CreatedAt": "2022-09-22T02:55:57.9800929-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 18,
+    "CreatedAt": "2022-09-22T02:55:57.9800931-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 19,
+    "CreatedAt": "2022-09-22T02:55:57.9800932-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 2,
+    "InteractionType": null,
+    "Message": "Updating Contact",
+    "Id": 20,
+    "CreatedAt": "2022-09-22T02:55:57.9800933-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 21,
+    "CreatedAt": "2022-09-22T02:55:57.9800934-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 22,
+    "CreatedAt": "2022-09-22T02:55:57.9800936-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 23,
+    "CreatedAt": "2022-09-22T02:55:57.9800937-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 24,
+    "CreatedAt": "2022-09-22T02:55:57.9800938-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 25,
+    "CreatedAt": "2022-09-22T02:55:57.980094-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 26,
+    "CreatedAt": "2022-09-22T02:55:57.9800942-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 27,
+    "CreatedAt": "2022-09-22T02:55:57.9800943-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 1,
+    "InteractionType": null,
+    "Message": "Creating Contact",
+    "Id": 28,
+    "CreatedAt": "2022-09-22T02:55:57.9800944-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "User": null,
+    "UserId": 2,
+    "InteractionTypeId": 3,
+    "InteractionType": null,
+    "Message": "Removing Contact",
+    "Id": 29,
+    "CreatedAt": "2022-09-22T02:55:57.9800946-03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
   }
 ]

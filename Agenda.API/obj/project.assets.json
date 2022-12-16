@@ -10757,11 +10757,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.API\\Agenda.API.csproj",
+      "projectUniqueName": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.API\\Agenda.API.csproj",
       "projectName": "Agenda.API",
-      "projectPath": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.API\\Agenda.API.csproj",
+      "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.API\\Agenda.API.csproj",
       "packagesPath": "C:\\Users\\wesle\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.API\\obj\\",
+      "outputPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10782,8 +10782,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj": {
-              "projectPath": "c:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj"
+            "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj": {
+              "projectPath": "C:\\Users\\wesle\\Luby\\Agenda2.0\\Agenda\\Agenda.Application\\Agenda.Application.csproj"
             }
           }
         }

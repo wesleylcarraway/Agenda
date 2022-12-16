@@ -7,12 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginModule } from './login/login.module';
 import { AgendaModule } from './agenda/agenda.module';
 import { RegisterModule } from './register/register.module';
-import { InteractionsComponent } from './interactions/interactions.component';
+import { InteractionsModule } from './interactions/interactions.module';
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
-      InteractionsComponent
+
    ],
   imports: [
     BrowserModule,
@@ -21,7 +21,8 @@ import { InteractionsComponent } from './interactions/interactions.component';
     AppRoutingModule,
     LoginModule,
     AgendaModule,
-    RegisterModule
+    RegisterModule,
+    InteractionsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

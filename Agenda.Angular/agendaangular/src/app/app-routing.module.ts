@@ -13,6 +13,7 @@ import { AuthAdminGuard } from './shared/guards/auth-admin.guard';
 import { UsersComponent } from './users/users.component';
 import { UsersFormComponent } from './users/users-form/users-form.component';
 import { RegisterComponent } from './register/register.component';
+import { InteractionsComponent } from './interactions/interactions.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,7 @@ const routes: Routes = [
         {path: 'form/:id', component: ContactFormComponent}
       ]
       },
+      {path: 'interactions', component: InteractionsComponent},
       {
         path: 'admin',
         canActivate: [AuthAdminGuard],
